@@ -1,0 +1,23 @@
+{
+  "name": "ca.com",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clineamb/clineamb.github.io.git"
+  },
+  "author": "Caroline Amaba <caroline@carolineamaba.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/clineamb/clineamb.github.io/issues"
+  },
+  "homepage": "https://github.com/clineamb/clineamb.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
+    "through2": "^2.0.1"
+  }
+}
