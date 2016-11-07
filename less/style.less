@@ -3,11 +3,23 @@
 @white:     #fff;
 @orange:    #eba52c;
 
+html, body {
+    width:              100%;
+    margin:             0;
+    overflow-x:         hidden;
+}
+
+html * {
+    box-sizing:         border-box;
+}
+
 body {
     background:         @black url('../img/bg.jpg') no-repeat top center;
     background-size:    100% auto;
     color:              @white;
     font-family:        'Arvo', 'Consolas', 'Courier New', monospace;
+    width:              100%;
+    overflow:           auto;
 }
 
 a {
@@ -26,4 +38,5 @@ a {
     margin:             0 auto;
     max-width:          640px;
     text-align:         center;
+    min-width:          300px;
 }
