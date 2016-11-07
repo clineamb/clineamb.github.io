@@ -1,6 +1,7 @@
 @import "inc/normalize";
 @black:     #000;
 @white:     #fff;
+@orange:    #eba52c;
 
 body {
     background:         @black url('../img/bg.jpg') no-repeat top center;
@@ -9,3 +10,20 @@ body {
     font-family:        'Arvo', 'Consolas', 'Courier New', monospace;
 }
 
+a {
+    color:              @orange;
+    text-decoration:    none;
+
+    &:hover {
+        text-decoration: underline;
+        color:          darken(@orange, 10%);
+    }
+}
+
+.container {
+    width:              100%;
+    padding:            0 15px;
+    margin:             0 auto;
+    max-width:          800px;
+    text-align:         center;
+}
